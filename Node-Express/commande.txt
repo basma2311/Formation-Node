@@ -1,0 +1,2 @@
+npx tailwindcss -i ./public/stylesheets/style.css -o ./public/stylesheets/output.css --watch
+pur accéder au fichier style

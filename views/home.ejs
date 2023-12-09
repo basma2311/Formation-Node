@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kittens</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1>Kittens</h1>
+
+    <ul>
+      <% for(const item of kittens) {%>
+      <li>
+        <img src="/images/<%= item.image %>" alt="<%= item.name %>" />
+
+        <a href="/kittens/<%= item.id %>"><%= item.name %> </a>
+            </li>
+      <% } %>
+    </ul>
+  </body>
+</html>
